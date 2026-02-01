@@ -1,0 +1,74 @@
+body{
+    background-color: lightblue;
+}
+
+h1{
+ text-align: center; 
+ font-family: verdana;  
+}
+
+h2{
+    font-family: verdana;
+}
+
+#paragraph2{
+    border: 4px solid green;
+    background-color: white;
+    padding: 25px 50px;
+    width: 50%;
+    margin: 25px;
+    line-height: 1.6;
+}
+
+.blue{
+    border: 3px solid black;
+    background-color: darkblue;
+    color: white;
+    width: 97%;
+    padding: 20px;
+    
+    
+}
+
+ol{
+  list-style-type: decimal-leading-zero;  
+}
+::marker{
+    font-size: x-large;
+}
+
+p a{
+    color: brown;
+}
+
+table, td, th {
+    border: 1px solid;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+th{
+    background-color: lightgray;
+}
+td{
+    height: 25px;
+    padding: 10px;
+    background-color: white;
+}
+
+
+/*
+Background color closely matches
+Top header is aligned correctly
+The 2nd paragraph closely matches, including the width, margin, padding, border, and line-height
+The 4th and 5th paragraphs closely match colors
+
+Header sizes closely match
+Link colors closely match
+The link to w3schools is a different color than the list item links
+List Items uses two digits
+The table header and cells have different backgrounds
+The table border applies to all cells, and the borders are overlapping
+*/
